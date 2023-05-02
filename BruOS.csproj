@@ -17,6 +17,9 @@
         <Profile>VMware</Profile>
         <Description>Use VMware Player or Workstation to deploy and debug.</Description>
         <PxeInterface>192.168.0.8</PxeInterface>
+        <Copyright>No Copyright</Copyright>
+        <FileVersion>0.1</FileVersion>
+        <AssemblyVersion>0.1</AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>

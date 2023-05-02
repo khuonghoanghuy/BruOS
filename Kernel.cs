@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
-using System;
 using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
@@ -56,8 +55,8 @@ namespace BruOS
                         Console.WriteLine("2. clear or cls - Clear all text");
                         Console.WriteLine("3. version or ver - Display Version of BruOS");
                         Console.WriteLine("4. credits - Display all person who made BruOS");
-                        Console.WriteLine("- APP SYSTEM COMMAND -");
-                        Console.WriteLine("1. calc - Running calculation app for BruOS");
+                        // Console.WriteLine("- APP SYSTEM COMMAND -");
+                        // Console.WriteLine("1. calc - Running calculation app for BruOS");
                         Console.WriteLine("- SYSTEM COMMAND -");
                         Console.WriteLine("1. shutdown - Power Off the OS");
                         Console.WriteLine("2. restart - Restart the OS");
