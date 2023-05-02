@@ -16,10 +16,11 @@ namespace BruOS
         /*// calc app
         int number1 = 0;
         int number2 = 0;
-        bool inCalc = false;
 
         // setting app
         bool inSetting = false;*/
+
+        bool inCalc = false;
 
         protected override void BeforeRun()
         {
