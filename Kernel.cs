@@ -24,6 +24,7 @@ namespace BruOS
 
         protected override void BeforeRun()
         {
+            Console.Clear();
             Console.WriteLine("BruOS booted successfully!");
             Console.WriteLine("Type Something or Using 'help' command for display some command!");
 
