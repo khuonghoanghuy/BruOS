@@ -13,13 +13,13 @@ namespace BruOS
         string version = "0.1";
         string credits = "Huy1234TH";
 
-        // calc app
+        /*// calc app
         int number1 = 0;
         int number2 = 0;
         bool inCalc = false;
 
         // setting app
-        bool inSetting = false;
+        bool inSetting = false;*/
 
         protected override void BeforeRun()
         {
@@ -63,7 +63,7 @@ namespace BruOS
                     }
                     break;
 
-                case "calc":
+                /*case "calc":
                     Console.Clear();
                     inCalc = true;
                     if (inCalc)
@@ -71,7 +71,7 @@ namespace BruOS
                         Console.WriteLine("Please press the first number: ");
                         inCalc = false;
                     }
-                    break;
+                    break;*/
 
                 case "credits":
                     if (!inCalc)
